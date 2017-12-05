@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Avenir Next Demibold";
+  src: url("../avenir-next-demibold.otf");
+}
+
+.restaurant-body {
+  font-family: "Avenir Next Demibold";
+  color: #fff;
+}
+
+.restaurant-header {
+  font-size: 17px;
+}
+
+.flex-restaurants {
+  height: 180px;
+}
+
+.locations {
+  font-size: 16px;
+  margin: 0;
+}
