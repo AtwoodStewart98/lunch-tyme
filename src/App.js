@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
-import HomeFrame from "./components/home/homeframe.js";
+import InternetFrame from "./components/internets/internetframe.js";
 import RestaurantFeed from "./components/restaurants/restaurantfeed.js";
-import GoogleMapFrame from "./components/googlemap/googlemapframe.js";
+import Map from "./components/googlemap/googlemapcontainer.js";
 
 class App extends Component {
   render() {
@@ -13,9 +13,9 @@ class App extends Component {
         <div id="frame">
           <Router>
             <Switch>
-              <Route exact path="/" render={() => <HomeFrame />} />
+              <Route exact path="/" render={() => <InternetFrame />} />
               <Route path="/restaurants" component={RestaurantFeed} />
-              <Route path="/findlunch" component={GoogleMapFrame} />
+              <Route path="/findlunch" component={Map} />
             </Switch>
           </Router>
         </div>

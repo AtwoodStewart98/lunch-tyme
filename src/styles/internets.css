@@ -1,0 +1,10 @@
+.internets {
+  background: #fff;
+}
+
+.bottom-bar {
+  background-color: #777;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
