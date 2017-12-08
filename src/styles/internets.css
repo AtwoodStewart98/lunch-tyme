@@ -1,5 +1,51 @@
+.nav-resizer {
+  padding: 20px;
+  width: 40%;
+  height: auto;
+}
+
+.nav-resizer img {
+  padding-right: 20px;
+  height: 30px;
+  width: auto;
+}
+
 .internets {
   background: #fff;
+}
+
+.animate-burger {
+  color: #fff;
+  position: absolute;
+  height: 3em;
+  top: 19%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-us {
+  display: flex;
+  color: red;
+}
+
+.red-box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.inner-contact {
+  background-color: white;
+  height: 100px;
+  width: 400px;
+}
+
+.inner-contact p {
+  float: left;
+}
+
+.inner-contact img {
+  height: 50%;
 }
 
 .bottom-bar {

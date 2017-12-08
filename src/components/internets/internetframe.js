@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import HamburgerButton from "./animateburger.js";
+
 import webBack from "../../Cuts/ic_webBack@2x.png";
 import webRefresh from "../../Cuts/ic_webRefresh@2x.png";
 import webForward from "../../Cuts/ic_webForward@2x.png";
@@ -17,20 +19,23 @@ class InternetFrame extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="nav-resizer">
           <img src={webBack} alt="Back" />
           <img src={webRefresh} alt="Refresh" />
           <img src={webForward} alt="Forward" />
         </div>
         <div className="internets">
           <div>
-            <div>Burger Icon</div>
-            <div>
-              <h3>contact</h3>
-              <img
-                src="https://www.urbanairship.com/images/agencies/bottlerocket.png"
-                alt="Bottle Rocket logo"
-              />
+            <div className="contact-us">
+              <HamburgerButton />
+              <div className="red-box" />
+              <div className="inner-contact">
+                <p>contact</p>
+                <img
+                  src="https://www.urbanairship.com/images/agencies/bottlerocket.png"
+                  alt="Bottle Rocket logo"
+                />
+              </div>
             </div>
             <div>
               <h3>we look forward to hearing from you</h3>

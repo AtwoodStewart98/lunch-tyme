@@ -4,7 +4,7 @@ import "./App.css";
 
 import InternetFrame from "./components/internets/internetframe.js";
 import RestaurantFeed from "./components/restaurants/restaurantfeed.js";
-import Map from "./components/googlemap/googlemapcontainer.js";
+// import Map from "./components/googlemap/googlemapcontainer.js";
 
 class App extends Component {
   render() {
