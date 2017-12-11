@@ -17,9 +17,9 @@
 .animate-burger {
   color: #fff;
   position: absolute;
-  height: 3em;
-  top: 19%;
-  left: 13%;
+  height: 2.5em;
+  top: 16%;
+  left: 10%;
   transform: translate(-50%, -50%);
 }
 
@@ -29,8 +29,8 @@
 }
 
 .red-box {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 75px;
   background-color: red;
 }
 
@@ -42,8 +42,8 @@
 
 .inner-contact p {
   float: left;
-  margin: 100% 0;
-  padding-right: 30px;
+  margin: 25px 0 0 5px;
+  padding-right: 35px;
 }
 
 .inner-contact img {
