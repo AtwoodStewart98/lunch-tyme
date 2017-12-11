@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import NavBar from "../internets/bottomnavbar.js";
+
 import mapicon from "../../Cuts/icon_map@2x.png";
 import "../../styles/restaurant.css";
 
@@ -10,7 +12,9 @@ class RestaurantFeed extends Component {
     super(props);
 
     this.state = {
-      restaurants: []
+      restaurants: [],
+      internets: false,
+      lunch: true
     };
   }
 
@@ -51,6 +55,7 @@ class RestaurantFeed extends Component {
         <h1 className="restaurant-header">Lunch Tyme</h1>
         <img src={mapicon} alt="icon" />
         <div>{restaurantInfo}</div>
+        <NavBar lunch={this.state.lunch} internets={this.state.internets} />
       </div>
     );
   }

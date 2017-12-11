@@ -51,6 +51,11 @@
   height: 70%;
 }
 
+.red-bg {
+  background-color: red;
+  color: #fff;
+}
+
 .bottom-bar {
   position: fixed;
   bottom: 0;
@@ -71,4 +76,5 @@
 .bottom-bar p {
   margin: 0;
   font-size: 12px;
+  font-family: "Avenir Next Demibold";
 }
